@@ -1,0 +1,26 @@
+body{
+     background-image:url("background.jpg");
+     background-position: center;
+     background-size: cover;
+
+}
+#object_identification{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    animation: pillow 4s infinite ;
+}
+@keyframes pillow{
+    50%{font-size: 50px;}
+}
+canvas{
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    animation:bottle 4s infinite ;
+ 
+    
+}
+@keyframes bottle{
+    from{box-shadow: 3px 3px 50px darkblue;}
+    to{box-shadow: 3px 3px 50px rgb(118, 214, 39);}
+}
